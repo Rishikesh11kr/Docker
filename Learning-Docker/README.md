@@ -1,4 +1,5 @@
-# Repo to learn Docker with examples. Contributions are most welcome.
+![image](https://www.wealth.co.th/wp-content/uploads/freshizer/de2a08db2f3bcae313822ac29c4118d5_docker-banner-934-c-90.png)
+# Welcome to the Docker repository...
 
 ## If you found this repo useful, give it a STAR 🌠
 
@@ -100,7 +101,7 @@ In simple words, you can understand as `containerization is a concept or technol
 
 ### Docker Architecture ?
 
-![image](https://user-images.githubusercontent.com/43399466/217507877-212d3a60-143a-4a1d-ab79-4bb615cb4622.png)
+![image](https://media.geeksforgeeks.org/wp-content/uploads/20221205115118/Architecture-of-Docker.png)
 
 The above picture, clearly indicates that Docker Deamon is brain of Docker. If Docker Deamon is killed, stops working for some reasons, Docker is brain dead :p (sarcasm intended).
 
@@ -114,7 +115,7 @@ There are three important things,
 2. docker run   -> runs container from docker images
 3. docker push  -> push the container image to public/private regestries to share the docker images.
 
-![Screenshot 2023-02-08 at 4 32 13 PM](https://user-images.githubusercontent.com/43399466/217511949-81f897b2-70ee-41d1-b229-38d0572c54c7.png)
+![Screenshot 2023-02-08 at 4 32 13 PM](https://res.cloudinary.com/practicaldev/image/fetch/s--0uJGEEuc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gevspybo00m3a7l4hfrz.png)
 
 
 
@@ -252,7 +253,7 @@ This message shows that your installation appears to be working correctly.
 ### Clone this repository and move to example folder
 
 ```
-git clone https://github.com/iam-veeramalla/Docker-Zero-to-Hero
+git clone https://github.com/iam-rishi/Docker
 cd  examples
 ```
 
@@ -278,7 +279,7 @@ Login Succeeded
 You need to change the username accoringly in the below command
 
 ```
-docker build -t abhishekf5/my-first-docker-image:latest .
+docker build -t rishi/my-first-docker-image:latest .
 ```
 
 Output of the above command
